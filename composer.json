@@ -1,0 +1,14 @@
+{
+    "name": "ofca/openssh",
+    "type": "library",
+    "description": "PHP classes for parsing OpenSSH authorized_keys file and more",
+    "homepage": "https://github.com/ofca/OpenSSH",
+    "require": {
+        "php": ">=5.2.4"
+    },
+    "autoload": {
+        "psr-0" : {
+            "OpenSSH" : "src/"
+        }
+    }
+}
